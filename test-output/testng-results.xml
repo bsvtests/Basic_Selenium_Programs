@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[login....]]>
+    </line>
+    <line>
+      <![CDATA[task is created]]>
+    </line>
+    <line>
+      <![CDATA[logout....]]>
+    </line>
+    <line>
+      <![CDATA[login....]]>
+    </line>
+    <line>
+      <![CDATA[task is edited]]>
+    </line>
+    <line>
+      <![CDATA[logout....]]>
+    </line>
+    <line>
+      <![CDATA[login....]]>
+    </line>
+    <line>
+      <![CDATA[task is deleted]]>
+    </line>
+    <line>
+      <![CDATA[logout....]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-24T10:05:36 IST" name="Default suite" finished-at="2021-05-24T10:05:36 IST" duration-ms="122">
+    <groups>
+      <group name="reg">
+        <method signature="Demo2_Group_Sample.deleteTask()[pri:6, instance:TestNG.Demo2_Group_Sample@306f16f3]" name="deleteTask" class="TestNG.Demo2_Group_Sample"/>
+        <method signature="Demo2_Group_Sample.editTask()[pri:5, instance:TestNG.Demo2_Group_Sample@306f16f3]" name="editTask" class="TestNG.Demo2_Group_Sample"/>
+      </group> <!-- reg -->
+      <group name="smoke">
+        <method signature="Demo2_Group_Sample.createTask()[pri:4, instance:TestNG.Demo2_Group_Sample@306f16f3]" name="createTask" class="TestNG.Demo2_Group_Sample"/>
+        <method signature="Demo2_Group_Sample.editTask()[pri:5, instance:TestNG.Demo2_Group_Sample@306f16f3]" name="editTask" class="TestNG.Demo2_Group_Sample"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-05-24T10:05:36 IST" name="Default test" finished-at="2021-05-24T10:05:36 IST" duration-ms="122">
+      <class name="TestNG.Demo2_Group_Sample">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="login" finished-at="2021-05-24T10:05:36 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createTask()[pri:4, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="createTask" finished-at="2021-05-24T10:05:36 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[task is created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="logout" finished-at="2021-05-24T10:05:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="login" finished-at="2021-05-24T10:05:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="editTask()[pri:5, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="editTask" finished-at="2021-05-24T10:05:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[task is edited]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editTask -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="logout" finished-at="2021-05-24T10:05:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="login" finished-at="2021-05-24T10:05:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteTask()[pri:6, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="deleteTask" finished-at="2021-05-24T10:05:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[task is deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestNG.Demo2_Group_Sample@306f16f3]" started-at="2021-05-24T10:05:36 IST" name="logout" finished-at="2021-05-24T10:05:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestNG.Demo2_Group_Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
